@@ -3,7 +3,7 @@ echo "---------------------------------------------++Starting build 0 ----------
 echo "dirname: "$dirname
 echo "dirname $0: "$(dirname $0)
 echo "$0 "$0
-. /.s2i/bin/common.sh
+. /tmp/scripts/common.sh
 #. $(dirname $0)/common.sh
 . /opt/rh/rh-maven33/enable
 echo "---------------------------------------------++Starting build 1--------------"
