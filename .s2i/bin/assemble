@@ -6,7 +6,7 @@ echo "$0 "$0
 # echo "sleeping-----------------"
 # sleep 200s
 
-. /temp/.s2i/bin/common.sh
+. /tmp/scripts/.s2i/bin/common.sh
 #. $(dirname $0)/common.sh
 . /opt/rh/rh-maven33/enable
 echo "---------------------------------------------++Starting build 1--------------"
