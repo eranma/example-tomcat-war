@@ -3,8 +3,8 @@ echo "---------------------------------------------++Starting build 0 ----------
 echo "dirname: "$dirname
 echo "dirname $0: "$(dirname $0)
 echo "$0 "$0
-#echo "sleeping-----------------"
-#sleep 200s
+echo "sleeping-----------------"
+sleep 200s
 
 . /tmp/.s2i/bin/common.sh
 #. $(dirname $0)/common.sh
