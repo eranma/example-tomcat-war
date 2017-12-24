@@ -8,10 +8,9 @@ echo "$0 "$0
 
 . /tmp/src/.s2i/bin/common.sh
 #. $(dirname $0)/common.sh
-ls /opt
+whoami
 echo "see directory"
-ls /opt/webserver
-echo "see directory1"
+
 
 . /opt/rh/rh-maven33/enable
 echo "---------------------------------------------++Starting build 1--------------"
