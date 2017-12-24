@@ -8,6 +8,8 @@ echo "$0 "$0
 
 . /tmp/src/.s2i/bin/common.sh
 #. $(dirname $0)/common.sh
+ls /opt/rh
+echo "see directory"
 . /opt/rh/rh-maven33/enable
 echo "---------------------------------------------++Starting build 1--------------"
 LOCAL_SOURCE_DIR=/tmp/src
